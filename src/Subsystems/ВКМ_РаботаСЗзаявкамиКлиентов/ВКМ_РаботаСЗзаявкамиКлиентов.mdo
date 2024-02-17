@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d8e64db-1af3-41fd-87c6-29cfa474ea2c">
+  <name>ВКМ_РаботаСЗзаявкамиКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с ззаявками клиентов (ВКМ)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ВКММаркетингИПродажи</picture>
+  </picture>
+  <content>Enum.ВидыДоговоровКонтрагентов</content>
+  <content>ScheduledJob.ВКМ_ОтправкаСообщенийВТелеграмБота</content>
+  <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>CommonModule.ВКМ_Телеграм</content>
+  <content>CommonModule.ВКМ_ФормированиеРТНаМесяц</content>
+  <content>Role.ВКМ_МенеджерОбслуживанияКлиентов</content>
+  <content>Role.ВКМ_МассовоеСозданиеАктов</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <subsystems>Документы</subsystems>
+  <subsystems>Обработки</subsystems>
+  <subsystems>Отчеты</subsystems>
+  <subsystems>Справочники</subsystems>
+  <subsystems>СмТакже</subsystems>
+</mdclass:Subsystem>

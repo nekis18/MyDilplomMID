@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8decd573-d546-4eda-a5b5-8e73b8ab2a9e">
+  <name>ВКМ_ФормированиеРТНаМесяц</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ формирование РТНа месяц</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

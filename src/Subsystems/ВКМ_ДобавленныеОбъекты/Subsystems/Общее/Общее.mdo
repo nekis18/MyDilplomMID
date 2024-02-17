@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e83ca4c-6f77-4750-9416-419aab79627b">
+  <name>Общее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общее</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ВКМ_Телеграм</content>
+  <content>CommonModule.ВКМ_ФормированиеРТНаМесяц</content>
+  <content>Role.ВКМ_МенеджерОбслуживанияКлиентов</content>
+  <content>Role.ВКМ_МассовоеСозданиеАктов</content>
+  <content>ScheduledJob.ВКМ_ОтправкаСообщенийВТелеграмБота</content>
+  <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
+</mdclass:Subsystem>

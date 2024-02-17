@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="770d7acb-09e3-4e60-8347-4bdb36018642">
+  <name>ВКМ_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавленные объекты (ВКМ)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ВКМИнтегрируемыеПодсистемы</picture>
+  </picture>
+  <subsystems>Документы</subsystems>
+  <subsystems>Другое</subsystems>
+  <subsystems>Регистры</subsystems>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Обработки</subsystems>
+  <subsystems>Отчеты</subsystems>
+  <subsystems>Константы</subsystems>
+  <subsystems>Общее</subsystems>
+</mdclass:Subsystem>

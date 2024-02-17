@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0769ef4a-7e8c-4803-90d2-336b12fff8dd">
+  <name>ВКМ_ОбслуживаниеКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание клиентов (ВКМ)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ВКММаркетингИПродажи</picture>
+  </picture>
+  <content>Enum.ВидыДоговоровКонтрагентов</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
+  <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
+  <subsystems>Документы</subsystems>
+  <subsystems>Обработки</subsystems>
+  <subsystems>Отчеты</subsystems>
+  <subsystems>Справочники</subsystems>
+  <subsystems>СмТакже</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14cc3485-2fba-42e1-8a19-77d9777db4b5">
+  <name>ВКМ_РасчетУправленческойЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет управл-ой зарплаты (ВКМ)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ВКМПерсонал</picture>
+  </picture>
+  <content>Enum.ВидыДоговоровКонтрагентов</content>
+  <content>Catalog.ВКМ_ФизическиеЛица</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
+  <content>CommonModule.ВКМ_ЗарплатаСервер</content>
+  <content>Role.ВКМ_КадровикРасчётчик</content>
+  <content>Constant.ВКМ_МинимальныйОклад</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>InformationRegister.ВКМ_ГрафикиОтпусков</content>
+  <subsystems>Документы</subsystems>
+  <subsystems>Обработки</subsystems>
+  <subsystems>Отчеты</subsystems>
+  <subsystems>СмТакже</subsystems>
+  <subsystems>Справочники</subsystems>
+</mdclass:Subsystem>

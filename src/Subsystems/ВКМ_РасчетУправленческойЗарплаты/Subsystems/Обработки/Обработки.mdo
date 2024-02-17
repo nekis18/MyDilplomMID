@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5529f5f6-cce3-4e4a-b3f1-1fd21f6087a3">
+  <name>Обработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
+  <parentSubsystem>Subsystem.ВКМ_РасчетУправленческойЗарплаты</parentSubsystem>
+</mdclass:Subsystem>
